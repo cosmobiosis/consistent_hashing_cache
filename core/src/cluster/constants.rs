@@ -1,0 +1,22 @@
+pub const STR_LOG_PREFIX: &str = "STR::";
+pub const STR_LOG_KEYWORD: &str = "STR";
+pub const LIST_LOG_PREFIX: &str = "LIST::";
+pub const LIST_LOG_KEYWORD: &str = "LIST";
+pub const KEYS_PREFIX: &str = "KEYS::";
+pub const LIST_KEYS_PREFIX: &str = "LIST-KEYS::";
+pub const VALIDATION_BIT_KEY: &str = "VALIDATION-BIT";
+pub const SCAN_INTERVAL_CONSTANT: u64 = 3;
+pub const APPEND_ACTION: &str = "APPEND";
+pub const REMOVE_ACTION: &str = "REMOVE";
+pub const KEEPER_STORE_NAME: &str = "KEEPER-STORE";
+pub const BACK_STATUS_STORE_KEY: &str = "BACK-STATUS";
+pub const MIGRATION_LOG_KEY: &str = "MIGRATION-LOG";
+pub const TRANS_LOG_STR_PREFIX: &str = "TRANS-LOG-STR::";
+pub const TRANS_LOG_LIST_PREFIX: &str = "TRANS-LOG-LIST::";
+pub const MIGRATION_INTERVAL: u64 = 7;
+pub const BRAODCAST_CLOCK_INTERVAL: u64 = 1;
+
+pub const LOCK_SERVERS_STARTING_PORT_KEY: &str = "LOCK_SERVERS_STARTING_PORT";
+pub const NUM_LOCK_SERVERS_KEY: &str = "NUM_LOCK_SERVERS";
+pub const DEFAULT_LOCK_SERVERS_STARTING_PORT: usize = 2000;
+pub const DEFAULT_NUM_LOCK_SERVERS: usize = 1;
